@@ -45,8 +45,8 @@
 <br>
 <br>
 <br>
-@if (empty($suasListas->toArray()))
 <br>
+@if (empty($suasListas->toArray()))
 <br>
 <br>
 <br>
