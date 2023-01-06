@@ -37,6 +37,7 @@ ul {
     padding: 3rem 2rem;
     height: 0rem;
     min-height: 12vh;
+    position: sticky
 }
 .navbar .navbar-brand a {
     padding: 1rem 0;
@@ -350,7 +351,13 @@ h6 span{
   box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
 }
 
-
+p.truncate-3l {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 
 
 .logo {
